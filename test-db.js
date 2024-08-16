@@ -1,4 +1,4 @@
-const pool = require('./backend/config/db'); // Asegúrate de que la ruta sea correcta
+const pool = require('./backend/config/db'); 
 
 pool.query('SELECT NOW()', (err, res) => {
   if (err) {

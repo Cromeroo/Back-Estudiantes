@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const studentController = require('../controllers/studentController'); // Importa el controlador correctamente
+const studentController = require('../controllers/studentController'); 
 const authController = require('../controllers/authController')
 // Verifica que esté importado correctamente
 

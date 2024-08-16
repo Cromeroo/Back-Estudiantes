@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const authController = require('../controllers/authController');
 
-// Log para confirmar que el archivo de rutas se carga correctamente
+// Log para confirmar que el archivo de rutas se carga correctamente, porque no carga1!!!!!
 console.log('Rutas de autenticación cargadas');
 
 // Ruta para registrar un nuevo usuario
