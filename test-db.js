@@ -6,5 +6,5 @@ pool.query('SELECT NOW()', (err, res) => {
   } else {
     console.log('Hora actual de la base de datos:', res.rows[0]);
   }
-  pool.end(); // Cierra la conexión después de la prueba
+  pool.end(); //  la conexión después de la prueba
 });
